@@ -1,42 +1,43 @@
 {
-  "name": "grunt-sp-deployer",
-  "description": "Grunt task enabling the upload of customization files to a SharePoint site",
-  "version": "0.1.0",
-  "homepage": "https://github.com/carlosinit/grunt-sp-deployer",
-  "author": {
-    "name": "Carlos da Silva",
-    "email": "dasilva.carlos@outlook.com",
-    "url": "https://github.com/carlosinit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/carlosinit/grunt-sp-deployer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/carlosinit/grunt-sp-deployer/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/carlosinit/grunt-sp-deployer/blob/master/LICENSE-MIT"
-    }
-  ],
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.9.2",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt": "~0.4.5"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.5"
-  },
-  "keywords": [
-    "gruntplugin"
-  ]
+    "name": "grunt-sp-deployer",
+    "description": "Grunt task enabling the upload of customization files to a SharePoint site",
+    "version": "0.1.0",
+    "homepage": "https://github.com/carlosinit/grunt-sp-deployer",
+    "author": {
+        "name": "Carlos da Silva",
+        "email": "dasilva.carlos@outlook.com",
+        "url": "https://github.com/carlosinit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/carlosinit/grunt-sp-deployer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/carlosinit/grunt-sp-deployer/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/carlosinit/grunt-sp-deployer/blob/master/LICENSE-MIT"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "^0.9.2",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-contrib-nodeunit": "^0.3.3",
+        "grunt": "~0.4.5"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.5"
+    },
+    "keywords": [
+        "gruntplugin"
+    ],
+    "dependencies": {}
 }
