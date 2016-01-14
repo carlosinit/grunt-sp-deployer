@@ -29,22 +29,9 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    sp_deployer: {
-      default_options: {
-        options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
+    spDeployer: {
+      prod : {
+          siteCollectionUrl: 'https://genesisconsult.sharepoint.com/sites/genco/' 
       }
     },
 
@@ -69,5 +56,7 @@ module.exports = function(grunt) {
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
+  
+  grunt.registerTask('debug', ['spDeployer']);
 
 };
